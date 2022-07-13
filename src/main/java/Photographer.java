@@ -1,5 +1,5 @@
 public class Photographer {
-    private Camera camera;
+    private final Camera camera;
 
     public Photographer(Camera camera) {
         this.camera = camera;
@@ -8,5 +8,7 @@ public class Photographer {
     public void takePhotograph() {
         camera.takePhotograph(100);
     }
+
+
 
 }

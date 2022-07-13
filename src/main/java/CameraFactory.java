@@ -5,7 +5,7 @@ public class CameraFactory {
 
         String name;
 
-        private CameraManufacturer(String name) {
+        CameraManufacturer(String name) {
             this.name = name;
         }
     }
